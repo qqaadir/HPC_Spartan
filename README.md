@@ -10,7 +10,7 @@ Add linux commands and relevant resources to run jobs (for TensorFlow, MATLAB) o
  
   `sinteractive --partition=gpgpu --gres=gpu:p100:1 -q gpgpumse --mem=16g --time=05:00:00`
 
-The above command allows to use gpu partition for 5 hrs. After this command, MObaXterm can be use to use to load various GUI modules, for example, you can use the following command to run MATLAB:
+The above command allows to use gpu partition for 5 hrs. After this command, MObaXterm can be used to load various GUI modules, for example, you can use the following command to run MATLAB:
 
 `module load matlab`
 `matlab`
