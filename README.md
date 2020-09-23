@@ -6,4 +6,7 @@ Add linux commands and relevant resources to run jobs (for TensorFlow, MATLAB) o
 
  `sinteractive --partition=shortgpgpu --gres=gpu:p100:1 -q gpgpumse --mem=16g --time=01:00:00`
  
- shortgpgpu partition can only allow 1 hr of interactive job time. Switch to gpgpu for longer time
+ shortgpgpu partition can only allow 1 hr of interactive job time. Switch to gpgpu for longer time. Use the following command
+ 
+  `sinteractive --partition=gpgpu --gres=gpu:p100:1 -q gpgpumse --mem=16g --time=01:00:00`
+
