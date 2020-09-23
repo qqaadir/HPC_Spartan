@@ -13,4 +13,5 @@ Add linux commands and relevant resources to run jobs (for TensorFlow, MATLAB) o
 The above command allows to use gpu partition for 5 hrs. After this command, [MObaXterm](https://mobaxterm.mobatek.net/) can be used to load various GUI modules, for example, you can use the following command to run MATLAB:
 
 `module load matlab`
+
 `matlab`
