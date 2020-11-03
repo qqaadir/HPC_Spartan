@@ -19,4 +19,5 @@ The above command allows to use gpu partition for 5 hrs. After this command, [MO
 A comprehensive list and explanation of HPC commands can be found [here](https://github.com/UoM-ResPlat-DevOps/SpartanIntro). 
 
  `du -hs .[^.]*` 
+ 
  The above command can be used to check for diskspace.
