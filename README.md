@@ -28,5 +28,6 @@ sbatch: error: Batch script contains DOS line breaks (\r\n)
 sbatch: error: instead of expected UNIX line breaks (\n)
 `
 
-To handle this issues, we need to replace \r characters with \n. This can be done simply using notedpad++ on windows and replace all search occurances of the \r\n with \n. This will fix above errors. Note, make sure to use extended search in notepad++.
+To handle this issues, we need to replace \r characters with \n. This can be done simply using notedpad++ on windows and replace all search occurances of the \r\n with \n. This will fix above errors. Note, make sure to use extended search in notepad++. More details [here](https://wikis.ovgu.de/hpc/doku.php?id=guide:dos_unix_linebreaks).
+'
 
