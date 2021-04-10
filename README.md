@@ -25,6 +25,7 @@ A comprehensive list and explanation of HPC commands can be found [here](https:/
 Sometime we create .slurm files on windows, this cause issues of compatibility with DOS command such as batch filename.slurm. The erros looks like this 
 `
 sbatch: error: Batch script contains DOS line breaks (\r\n) 
+
 sbatch: error: instead of expected UNIX line breaks (\n)
 `
 
