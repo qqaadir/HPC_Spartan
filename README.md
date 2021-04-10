@@ -21,3 +21,12 @@ A comprehensive list and explanation of HPC commands can be found [here](https:/
  `du -hs .[^.]*` 
  
  The above command can be used to check for diskspace.
+
+Sometime we create .slurm files on windows, this cause issues of compatibility with DOS command such as batch filename.slurm. The erros looks like this 
+`
+sbatch: error: Batch script contains DOS line breaks (\r\n) 
+sbatch: error: instead of expected UNIX line breaks (\n)
+`
+
+To handle this issues, we need to replace \r characters with \n. This can be done simply using notedpad++ on windows and replace all search occurances of the \r\n with \n. This will fix above errors. Note, make sure to use extended search in notepad++.
+
